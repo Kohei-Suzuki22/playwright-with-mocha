@@ -1,0 +1,18 @@
+{
+  "name": "playwright-with-mocha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Kohei-Suzuki22/playwright-with-mocha.git",
+  "author": "kohei <bhkbb0551@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "text": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "playwright": "^1.29.1",
+    "prettier": "^2.8.1"
+  }
+}
