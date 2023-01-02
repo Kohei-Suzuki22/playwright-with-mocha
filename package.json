@@ -6,7 +6,7 @@
   "author": "kohei <bhkbb0551@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "text": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+    "test": "./node_modules/mocha/bin/mocha.js --timeout=30000 ./tests"
   },
   "dependencies": {
     "@types/mocha": "^10.0.1",
